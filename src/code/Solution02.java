@@ -47,6 +47,7 @@ public class Solution02 {
             this.printListFromTailToHead(listNode.next);
             arrayList.add(listNode.val);
         }
+
         return arrayList;
     }
 }
